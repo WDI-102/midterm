@@ -103,9 +103,6 @@ return true if the string contains both an exclamation point (!) AND a question 
 Return false if otherwise
 */
 
-function exclamationAndQuestion(str){
-    
-}
 
 /* console.logs to test */
 console.log("exclamationAndQuestion");
