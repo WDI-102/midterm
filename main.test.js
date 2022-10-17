@@ -7,6 +7,8 @@ const {
   divisibleBy4And7,
   exclamationAndQuestion,
   countAB,
+  createCharacter,
+  pairUp,
 } = require('./main.js')
 
 
@@ -165,5 +167,55 @@ describe('countAB', () => {
     expect(countAB('o')).toEqual([0,0]);
   })
 
+})
+
+describe('createCharacter', () => {
+  it(`creates a character`, () => {
+    const character1 = {
+      name: 'Noah',
+      atk: 95,
+      def: 80
+    };
+
+    const character2 = {
+      name: 'Mio',
+      atk: 80,
+      def: 100
+    };
+
+    expect(createCharacter('Noah',95,80)).toStrictEqual(character1);
+    expect(createCharacter('Mio',80,100)).toStrictEqual(character2);
+  })
+})
+
+describe('pairUp', () => {
+  const character1 = {
+    name: 'Noah',
+    atk: 95,
+    def: 80
+  };
+
+  const character2 = {
+    name: 'Mio',
+    atk: 80,
+    def: 100
+  };
+
+  pairUp(character1,character2)
+  it(`pairs up two characters`, () => { 
+    expect(character1.pairUp).toBe(true);
+    expect(character2.pairUp).toBe(true);
+  })
+
+  it(`sets up pair partners`, () => { 
+    expect(character1.pairPartner).toBe('Mio');
+    expect(character2.pairPartner).toBe('Noah');
+  })
+  
+  it(`modifies the atk stat of character1`, () => { 
+    expect(character1.atk).toBe(135);
+    expect(character2.atk).toBe(80);
+  })
+  
 })
 
