@@ -66,4 +66,12 @@ You can assume the arrays that are being input are of the same length
   * No need to add the count of A and B together.  Again, we want an array with the separate counts of each
   * For this problem, you can count both upper and lower case A's and B's
 
+* `createCharacter`
+  * Write a function called createCharacter() that creates a character object and returns it.  
+  * A character object should consist of a name (string), an attack stat (number), and a defense stat (number)
+
+* `pairUp`
+  * Write a function called pairUp() that takes in 2 character objects (an object with the following properties: name, atk, def). 
+  * For each character, add the following properties: pairedUp (boolean) and set it equal to true as well as pairPartner (string) whose value is the name of the other opposite character.  
+  * Finally, increase the atk of the first character passed in by half the atk of the second character passed in. 
 
