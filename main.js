@@ -129,6 +129,36 @@ console.log("///////////////////////////////////////////////////////////////////
 
 console.log("\n////////////////////////////////////////////////////////////////////////////\n");
 
+/*
+Write a function called createCharacter() that creates a character object and returns it.  
+A character object should consist of a name (string), an attack stat (number), and a defense stat (number)
+*/
+
+/* console.logs to test */
+console.log("createCharacter");
+console.log("////////////////////////////////////////////////////////////////////////////\n");
+//Add console.logs here to test!  Feel free to format this section however you like
+
+console.log("\n////////////////////////////////////////////////////////////////////////////\n");
+
+
+/*
+Write a function called pairUp() that takes in 2 character objects (an object with the following properties: name, atk, def). 
+For each character, add the following properties: pairedUp (boolean) and set it equal to true as well as pairPartner (string) 
+whose value is the name of the other opposite character.  Finally, increase the atk of the first character passed in by half 
+the atk of the second character passed in.  
+
+*/
+
+/* console.logs to test */
+console.log("pairUp");
+console.log("////////////////////////////////////////////////////////////////////////////\n");
+//Add console.logs here to test!  Feel free to format this section however you like
+
+console.log("\n////////////////////////////////////////////////////////////////////////////\n");
+
+
+
 // Our code here. Don't touch!
 if (typeof sumOfOdds === 'undefined') {
     sumOfOdds = undefined
@@ -161,6 +191,14 @@ if (typeof sumOfOdds === 'undefined') {
   if (typeof countAB === 'undefined') {
     countAB = undefined
   }
+
+  if (typeof createCharacter === 'undefined') {
+    createCharacter = undefined
+  }
+
+  if (typeof pairUp === 'undefined') {
+    pairUp = undefined
+  }
   
   module.exports = {
     sumOfOdds,
@@ -171,4 +209,6 @@ if (typeof sumOfOdds === 'undefined') {
     divisibleBy4And7,
     exclamationAndQuestion,
     countAB,
+    createCharacter,
+    pairUp,
   }
