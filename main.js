@@ -127,8 +127,8 @@ console.log("///////////////////////////////////////////////////////////////////
 console.log("\n////////////////////////////////////////////////////////////////////////////\n");
 
 /*
-Write a function called createCharacter() that creates a character object and returns it.  
-A character object should consist of a name (string), an attack stat (number), and a defense stat (number)
+Write a function called createCharacter() that creates a Character object and returns it.  
+A Character object should consist of a name (string), an attack stat (number), and a defense stat (number)
 */
 
 /* console.logs to test */
@@ -140,10 +140,10 @@ console.log("\n/////////////////////////////////////////////////////////////////
 
 
 /*
-Write a function called pairUp() that takes in 2 character objects (an object with the following properties: name, atk, def). 
-For each character, add the following properties: pairedUp (boolean) and set it equal to true as well as pairPartner (string) 
-whose value is the name of the other opposite character.  Finally, increase the atk of the first character passed in by half 
-the atk of the second character passed in.  
+Write a function called pairUp() that takes in 2 Character objects (an object with the following properties: name, atk, def). 
+For each Character, add the following properties: pairedUp (boolean) and set it equal to true as well as pairPartner (string) 
+whose value is the name of the other opposite Character.  Finally, increase the atk of the first Character passed in by half 
+the atk of the second Character passed in.  
 
 */
 
