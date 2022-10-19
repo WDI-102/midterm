@@ -12,6 +12,7 @@
 * .toUpperCase()
 * .concat()
 * .indexOf()
+* .includes()
 * .push()
 * .unshift()
 * That's really all!  I think the only one that you'll NEED to use is .push(), the rest are optional/may possibly make your life easier.  
