@@ -147,7 +147,7 @@ describe('countAB', () => {
   
   it('countAB - both cases', () => {
     expect(countAB('abbA')).toEqual([2,2]);
-    expect(countAB('Basketball is my favorite sport.  I like the way they dribble up and down the court')).toEqual([5,4]);
+    expect(countAB('A Map. A String. A Light. So Bright.  but why?')).toEqual([4,2]);
   })
 
   
