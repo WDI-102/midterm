@@ -69,7 +69,7 @@ You can assume the arrays that are being input are of the same length
 
 * `createCharacter`
   * Write a function called createCharacter() that creates a character object and returns it.  
-  * A character object should consist of a name (string), an attack stat (number), and a defense stat (number)
+  * A character object should consist of a name (string), an attack stat called atk (number), and a defense stat called def (number)
 
 * `pairUp`
   * Write a function called pairUp() that takes in 2 character objects (an object with the following properties: name, atk, def). 
