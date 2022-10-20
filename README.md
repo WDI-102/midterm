@@ -73,6 +73,6 @@ You can assume the arrays that are being input are of the same length
 
 * `pairUp`
   * Write a function called pairUp() that takes in 2 character objects (an object with the following properties: name, atk, def). 
-  * For each character, add the following properties: pairedUp (boolean) and set it equal to true as well as pairPartner (string) whose value is the name of the other opposite character.  
+  * For each character, add the following properties: pairUp (boolean) and set it equal to true as well as pairPartner (string) whose value is the name of the other opposite character.  
   * Finally, increase the atk of the first character passed in by half the atk of the second character passed in. 
 
