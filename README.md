@@ -72,7 +72,7 @@ You can assume the arrays that are being input are of the same length
   * A character object should consist of a name (string), an attack stat called atk (number), and a defense stat called def (number) that should be taken in as parameters in that order.
 
 * `pairUp`
-  * Write a function called pairUp() that takes in 2 character objects (an object with the following properties: name, atk, def). 
+  * Write a function called pairUp() that takes in 2 character objects (an object with the following properties: name, atk, def where name is a string and the other two values are numbers). 
   * For each character, add the following properties: pairUp (boolean) and set it equal to true as well as pairPartner (string) whose value is the name of the other opposite character.  
   * Finally, increase the atk of the first character passed in by half the atk of the second character passed in. 
 
