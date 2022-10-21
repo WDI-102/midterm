@@ -27,7 +27,7 @@
 
 * `sumOfOdds`
   * Write a function called sumOfOdds that takes in 2 numbers as parameters and sums the odd numbers between them.
-  * This function is inclusive so please include your two parameters in your calculation.
+  * This function is inclusive so please include your two parameters in your calculation if they meet the prior criteria.
   * After summing the numbers, return the sum.
   * You can assume that the 2nd number passed in will always be greater than the first and that the two numbers will not be the same
 
@@ -69,7 +69,7 @@ You can assume the arrays that are being input are of the same length
 
 * `createCharacter`
   * Write a function called createCharacter() that creates a character object and returns it.  
-  * A character object should consist of a name (string), an attack stat called atk (number), and a defense stat called def (number)
+  * A character object should consist of a name (string), an attack stat called atk (number), and a defense stat called def (number) that should be taken in as parameters in that order.
 
 * `pairUp`
   * Write a function called pairUp() that takes in 2 character objects (an object with the following properties: name, atk, def). 
