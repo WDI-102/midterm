@@ -50,22 +50,22 @@ describe('arraySubtract', () => {
 
 describe('surroundArray', () => {
   
-  it(`arraySubtract`, () => {
+  it(`surroundArray`, () => {
     expect(surroundArray(['cat'], 'dog', 'bird')).toEqual(['dog', 'cat', 'bird']);
     expect(surroundArray(['fox', 'mountain', 'egg'], 'bear', 'tent')).toEqual(['bear', 'fox', 'mountain', 'egg', 'tent']);
     expect(surroundArray(['gabite', 'garchomp'], 'gible', 'M-Garchomp')).toEqual(['gible', 'gabite', 'garchomp', 'M-Garchomp']);
   })
  
   
-  it(`arraySubtract - empty array`, () => {
+  it(`surroundArray - empty array`, () => {
     expect(surroundArray([], 'twi', 'la')).toEqual(['twi', 'la']);
   })
   
-  it(`arraySubtract - empty string`, () => {
+  it(`surroundArray - empty string`, () => {
     expect(surroundArray(['soup','store'],'',' ')).toEqual(['','soup','store',' ']);
   })
   
-  it(`arraySubtract - empty string and array`, () => {
+  it(`surroundArray - empty string and array`, () => {
     expect(surroundArray([],'','')).toEqual(['','']);
   })
 })
