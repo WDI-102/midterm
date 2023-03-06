@@ -6,10 +6,9 @@
 
 /*
 Write a function called sumOfOdds that takes in 2 numbers as parameters and sums the odd numbers between them.
-This function is inclusive so please include your two parameters in your calculation.
+This function is inclusive so please include your two parameters in your calculation if they meet the prior criteria.
 After summing the numbers, return the sum.
 You can assume that the 2nd number passed in will always be greater than the first and that the two numbers will not be the same
-Note: This problem should account for negative number input
 */
 
 
@@ -23,7 +22,7 @@ console.log("\n/////////////////////////////////////////////////////////////////
 /*
 Write a function arraySubtract that takes in 2 arrays of numbers and subtracts the item in each index at array 1 with its respective item in each index at array 2.
 The result of each calculation should be placed in a new array and that array should be returned when the calculations are complete.
-For example arraySubtract([7,9],[2,6]) should return [5,3]
+For exmaple arraySubtract([7,9],[2,6]) should return [5,3] 
 You can assume the arrays that are being input are of the same length
 */
 
@@ -71,9 +70,9 @@ console.log("\n/////////////////////////////////////////////////////////////////
 /*
 Write a function sToR that replaces every 's' character in the string with an 'r' AND every 'r' character in the string with an 's'
 If the letter in the original string is uppercase the letter in the output string should be as well
-Do NOT use replaceAll or similar string methods.  If you are unsure what that means, ask before you use a string method!  (toUpperCase() and toLowerCase() should be all you need if anything)
+Do NOT use replaceAll or similar string methods. 
+If you are unsure what that means, ask before you use a string method! (toUpperCase() and toLowerCase() should be all you need if anything)
 */
-
 
 /* console.logs to test */
 console.log("sToR");
@@ -127,8 +126,9 @@ console.log("///////////////////////////////////////////////////////////////////
 console.log("\n////////////////////////////////////////////////////////////////////////////\n");
 
 /*
-Write a function called createCharacter() that creates a Character object and returns it.  
-A Character object should consist of a name (string), an attack stat (number), and a defense stat (number)
+Write a function called createCharacter() that creates a character object and returns it.
+A character object should consist of a name (string), an attack stat called atk (number), 
+and a defense stat called def (number) that should be taken in as parameters in that order.
 */
 
 /* console.logs to test */
@@ -140,11 +140,11 @@ console.log("\n/////////////////////////////////////////////////////////////////
 
 
 /*
-Write a function called pairUp() that takes in 2 Character objects (an object with the following properties: name, atk, def). 
-For each Character, add the following properties: pairedUp (boolean) and set it equal to true as well as pairPartner (string) 
-whose value is the name of the other opposite Character.  Finally, increase the atk of the first Character passed in by half 
-the atk of the second Character passed in.  
-
+Write a function called pairUp() that takes in 2 character objects (an object with the following properties: 
+name, atk, def where name is a string and the other two values are numbers).
+For each character, add the following properties: pairUp (boolean) and set it equal to true as well 
+as pairPartner (string) whose value is the name of the other opposite character.
+Finally, increase the atk of the first character passed in by half the atk of the second character passed in.
 */
 
 /* console.logs to test */
